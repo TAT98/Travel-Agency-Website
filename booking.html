@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking Form</title>
+	<link rel="icon" href="images/bookingtitle.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+</head>
+<body>
+	<div class="booking-body">
+		<div class="booking-logo">
+			<h3 class="header-head">Tourip</h3>			
+			<a href="index.html"><img src="images/logo.png"/></a>
+		</div>
+		<div class="booking-title">
+			<h1>Flight Booking</h1>
+		</div>	
+		<div class="booking-form-box">
+			<div class="radio-btn">
+				<input type="radio" class="btn" chacked="chacked" name="check"><span>Up-Down Trip</span>
+				<input type="radio" class="btn" name="check"><span>OneWay Trip</span>
+				<input type="radio" class="btn" name="check"><span>Multy-City Trip</span>
+			</div>
+			<div class="booking-form">
+				<div class="input-grp">
+					<label>Flying From</label>
+						<input type="text" name="form-control" placeholder="City or Airport">
+				</div>	
+				<div class="input-grp">
+					<label>Flying To</label>
+						<input type="text" name="form-control" placeholder="City or Airport">
+				</div>	
+				<div class="input-grp">
+					<label>Departing</label>
+						<input type="date" name="form-control select-date">
+				</div>
+				<div class="input-grp">
+					<label>Returning</label>
+						<input type="date" name="form-control select-date">
+				</div>
+				<div class="input-grp">
+					<label>Adults</label>
+						<input type="number" name="form-control" value="0">
+				</div>
+				<div class="input-grp">
+					<label>Children</label>
+						<input type="number" name="form-control" value="0">
+				</div>
+				<div class="input-grp">
+					<label>Travel Class</label>
+					<select class="custom select">
+						<option value="1">Economy Class</option>
+						<option value="2">Business Class</option>
+					</select>
+				</div>
+				<div class="input-grp">
+					<button type="button" class="btn btn-primary flight">Show Flights</button>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div>
+				<p class="copyright">&copy; DESIGNED BY T-A-T</p>
+			</div>
+		</footer>
+	</div>	
+</body>
+</html>

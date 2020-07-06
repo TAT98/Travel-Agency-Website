@@ -1,0 +1,72 @@
+.login-body
+{
+    margin: 0px;
+    padding: 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("images/formbackground.jpg");
+	background-size: cover;
+	background-position: cover;
+}
+.login-logo .header-head 
+{
+    text-align: left;
+    padding-left: 155px;
+    color: #fff;
+    font-size: 28px;
+}
+.login-logo img
+{
+    width: 150px;
+    float: left;
+    margin-left: 120px;
+}
+.login-title
+{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 2s ease-in-out;
+}
+.login-body .container
+{
+	margin-left: 460px;
+}
+.login-title h1
+{
+	text-align: center;
+	font-size: 32px;
+	line-height: 10px;
+	padding-right: 310px;
+}
+.login-body .input-grp
+{
+	width: 250px;
+	height: 35px;
+}
+.login-body .input-btn
+{
+	width: 70px;
+	height: 35px;
+	background-color: green;
+	color:white;
+}
+.login-body .input-btn:hover
+{
+	background-color: #26DB4A;
+	cursor: pointer;
+}
+.login-body .footer
+{
+    padding: 20px 20px 20px 0px;
+    background: transparent;
+    color: #fff;
+}
+.login-body .footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.login-body .footer .copyright
+{
+    text-align: center;
+}

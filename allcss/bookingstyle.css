@@ -1,0 +1,122 @@
+.booking-body
+{
+    margin: 0px;
+    padding: 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/booking.jpg);
+	background-size: cover;
+	background-position: cover;
+}
+.booking-logo .header-head
+{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 155px;
+    color: #fff;
+}
+.booking-logo img
+{
+    width: 150px!important;
+    float: left;
+    margin-left: 120px;
+}
+.booking-title
+{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 2s ease-in-out;
+}
+.booking-title h1
+{
+	text-align: center;
+	font-size: 32px;
+	line-height: 10px;
+	margin-right: 270px;
+}
+.booking-form-box
+{
+	max-width: 400px;
+	border: 2px solid #ced4da;
+	margin: 40px auto 0;
+}
+
+.booking-body .radio-btn
+{
+	margin: 0px 20px;
+}
+.booking-body .radio-btn .btn
+{
+	margin: 20px 10px 20px 0px;
+	box-shadow: none;
+}
+.booking-body .radio-btn .btn::after
+{
+	content: '';
+	height: 15px;
+	width: 15px;
+	top: -3px;
+	left: 0px;
+	background-color: #fff;
+	position: relative;
+	display: inline-block;
+	border: 3px solid #fff;
+	visibility: visible;
+	border-radius: 50%;
+}
+.booking-body .radio-btn .btn:checked::after
+{
+	content: '';
+	background-color: #000;
+	transition: 0.5s;
+}
+.booking-body .radio-btn span
+{
+	color: #60EC0E;
+	margin-right: 5px;
+	font-size: 12px;
+}
+.booking-form
+{
+	padding: 0px 20px 20px 20px;
+}
+.booking-form label
+{
+	margin-bottom: 5px;
+	margin-top: 10px;
+	font-size: 15px;
+	color: #fff;
+}
+.booking-body input::placeholder
+{
+	height: 20px;
+	color: #fff;
+}
+.booking-body .input-grp
+{
+	width: 175px;
+	display: inline-block;
+}
+.booking-body .form-control
+{
+	font-size: 20px;
+	border-radius: 0px;
+	color: #fff;
+	background: transparent;
+	box-shadow: none;
+}
+.booking-body .footer
+{
+    padding: 20px 20px 20px;
+    background: transparent;
+    color: #fff;
+}
+.booking-body .footer p
+{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.booking-body .footer .copyright
+{
+    text-align: center;
+}
